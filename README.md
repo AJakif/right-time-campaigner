@@ -10,4 +10,28 @@ The system will output a structured JSON payload representing the right time, ri
 
 ## Project Structure
 
-(This will be filled in as we build)
+right-time-campaigner/
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
+├── .gitignore
+└── README.md
+
+## Running the Project
+
+1. Navigate to the `backend` directory:
+   ```bash
+   cd backend
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Start the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+4. Access the API documentation at `http://localhost:8000/docs`.
